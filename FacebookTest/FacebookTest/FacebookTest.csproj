@@ -57,6 +57,10 @@
     <Reference Include="System.EnterpriseServices" />-->
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cdv-plugin-fb-connect.js" />
+    <Content Include="config.xml" />
+    <Content Include="cordova.js" />
+    <Content Include="facebook-js-sdk.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +72,7 @@
     <None Include="index.html" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
